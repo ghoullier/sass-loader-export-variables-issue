@@ -15,7 +15,10 @@ $white: '#FFF';
 ```js
 import colors from './colors.scss'
 
-colors.white === '#FFF'
+console.assert(
+  Object.keys(colors).length > 0,
+  'Exported colors should contains at least 1 variables',
+)
 ```
 
 ## The problem
