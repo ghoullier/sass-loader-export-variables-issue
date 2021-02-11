@@ -1,0 +1,24 @@
+{
+  "name": "play-sass-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gregory Houllier",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "3.4.2",
+    "html-webpack-plugin": "4.0.0-beta.11",
+    "node-sass": "4.14.1",
+    "sass-loader": "8.0.2",
+    "serve": "*",
+    "style-loader": "0.23.1",
+    "webpack": "4.42.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "4.5.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "prestart": "yarn build",
+    "start": "serve dist"
+  }
+}
