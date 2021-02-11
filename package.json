@@ -1,5 +1,5 @@
 {
-  "name": "play-sass-loader",
+  "name": "sass-loader-export-variables-issue",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Gregory Houllier",
